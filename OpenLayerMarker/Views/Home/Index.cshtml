@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<head>
+    
+</head>
+<body onload="initialize_map();">
+
+    <div id="map" class="map" style="width: 100vw; height: 100vh;"></div>
+
+    <script>
+        var featureCollection = [];
+    </script>
+    <script src="~/Scripts/polygons.data.js"></script>
+    <script src="~/Scripts/initialize.points.js"></script>
+    <script src="~/Scripts/initialize.map.js"></script>
+</body>
